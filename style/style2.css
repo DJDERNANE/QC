@@ -1,0 +1,39 @@
+.chart {
+    height: max-content;
+    width: 90%;
+    margin: auto;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.chart iframe{
+    width: 50%;
+    height: 500px;
+}
+
+canvas {
+    height: 400px;
+}
+
+#myChart, #myChart1 {
+    height: 100px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+}
+iframe{
+    overflow: hidden;
+    height: 500px;
+}
+iframe::-webkit-scrollbar {
+    display: none;
+  }
+#myForm{
+    opacity: 0;
+  }
+  #myForm:hover{
+    opacity: 1;
+  }

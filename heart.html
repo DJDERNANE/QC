@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles/reset.min.css" />
+  <link rel="stylesheet" href="styles/style.css" />
+  <link rel="stylesheet" href="styles/header-2.css" />
+  <title>Qure - Heart beats</title>
+  <link rel="stylesheet" href="style/style.css" />
+  <link rel="stylesheet" href="style/style2.css" />
+  
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="imgs/wbg_logo.PNG" alt="Logo" />
+    </div>
+    <nav>
+      <ul>
+        <li><a href="heart.html" class="active">Heart Beats Analysis</a></li>
+        <li><a href="cancer.html">Cancer Analysis</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="content">
+    
+    <div class="chart">
+      <iframe src="graphe1.html" frameborder="0"></iframe>
+      
+      <iframe src="graphe2.html" frameborder="0"></iframe>
+    </div>
+
+
+    <!-- HTML -->
+    <div class="parent">
+        <div class="item">
+          <h1>Quantum Algorithm Results</h1>
+          <div id="chartdiv"></div>
+        </div>
+        <div class="item">
+          <h1>Classical ML Algorithm Results</h1>
+          <div id="chartdiv1"></div>
+        </div>
+    </div>
+  </div>
+   
+
+  
+    
+
+
+    
+  </div>
+
+
+
+   <!-- Resources -->
+   <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+   <script src="https://cdn.amcharts.com/lib/5/xy.js"></script>
+   <script src="https://cdn.amcharts.com/lib/5/radar.js"></script>
+   <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+
+   <!-- Chart code -->
+   <script src="JS/chart1.js"></script>
+   <script src="JS/chart2.js"></script>
+
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.1/chart.min.js"
+    integrity="sha512-Wt1bJGtlnMtGP0dqNFH1xlkLBNpEodaiQ8ZN5JLA5wpc1sUlk/O5uuOMNgvzddzkpvZ9GLyYNa8w2s7rqiTk5Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+  <script src="JS/main.js"></script>
+</body>
+
+</html>
